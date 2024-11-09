@@ -28,6 +28,11 @@ namespace WPF_Clase01
             {
                 MessageBox.Show($"Login Success con el usuario: {username}");
                 // Console.WriteLine($"Login Success con el usuario: {username}");
+                // Accion para redirigir a la ventana Dashboard.xaml
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+                // Cerrar la ventana del login
+                this.Close();
             }
             else
             {

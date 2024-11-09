@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Clase01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock Text="Usuario" HorizontalAlignment="Left" Margin="240,93,0,293" Width="100"></TextBlock>
-        <TextBox x:Name="UsernameTextBox" HorizontalAlignment="Left" Margin="400,93,0,293" Width="242" ></TextBox>
-        <TextBlock Text="Contrasena" HorizontalAlignment="Left" Margin="240,146,0,235" Width="100"></TextBlock>
-        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="400,146,0,235" Width="242" ></PasswordBox>
-        <Button Content="Ingresar" HorizontalAlignment="Center" Click="Button_Click" Margin="0,217,0,158" Width="100"></Button>
+        Title="MainWindow" Height="325" Width="500">
+    <Grid Width="500" Margin="0,0,0,-6">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Usuario" TextAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,129" Height="25" Width="100"/>
+            <TextBox x:Name="UsernameTextBox" HorizontalAlignment="Left" Margin="160,0,0,129" Height="25" Width="242" />
+            <TextBlock Text="Contrasena" TextAlignment="Center" HorizontalAlignment="Left" Margin="0,55,0,74" Height="25" Width="100"/>
+            <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="160,55,0,74" Height="25"  Width="242" />
+            <Button Content="Ingresar" HorizontalAlignment="Center" Click="Button_Click" Margin="0,119,0,10" Height="25" Width="100"/>
+        </Grid>
     </Grid>
 </Window>
